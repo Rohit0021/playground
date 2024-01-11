@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    RD PLAYGROUND | Code Editor
+  </title>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+
+  <!-- script src="//cdn.tailwindcss.com"></script -->
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="http://localhost:3000/css">
+
+  <!-- link rel="stylesheet" href="style.css" -->
+
+</head>
+
+<body>
+
+  <div class="info" id="info" style="display:none; opacity: 0;">
+    <p>This is a coding playground by RD. you write, run and learn coding in language here. let's code !</p>
+  </div>
+
+  <main id="container">
+    <header id="headBox">
+      <button id="run">
+        RUN &#160
+        <i class="fa fa-play"></i>
+      </button>
+      <div id="currLang"> C </div>
+      <button id="changeLang">
+        <i class="fa fa-recycle"></i>
+      </button>
+    </header>
+    <div id="lowerBox">
+      <div id="editorBox"></div>
+      <div id="outputContainer">
+        <div id="resizeBar">
+          <div id="loadingBox">
+            <i class="fa fa-circle"></i>
+            <i class="fa fa-circle"></i>
+            <i class="fa fa-circle"></i>
+          </div>
+        </div>
+        <div id="outputBox">
+          <p id="output">
+            OUTPUT
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="http://localhost:3000/js"></script>
+
+  <!-- script src="script.js"></script --->
+
+</body>
+
+</html>
